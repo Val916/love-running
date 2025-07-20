@@ -156,6 +156,7 @@ main {
     justify-content: center;
 }
 
+/* Meetup Times section */
 #times {
     background: url('../images/dublin-city.webp') no-repeat center/ cover;
     /* Handles responsivity without the need for a media query */
@@ -181,6 +182,16 @@ flex-grow: 1;
     color: #fafafa;
 }
 
+/* Gallery page*/
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+line-height:0;
+}
 /* Footer */
 #social-networks {
     text-align: center;
